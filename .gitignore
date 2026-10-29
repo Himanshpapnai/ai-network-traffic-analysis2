@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Testing cache
+.pytest_cache/
+
+# Large dataset files (raw and processed CSVs exceed GitHub file limits)
+data/raw/*.csv
+data/processed/*.csv

@@ -1,0 +1,12 @@
+{
+    "rows_evaluated": 223112,
+    "features": 68,
+    "benign_training_rows": 95096,
+    "accuracy": 0.6938443472336764,
+    "benign_precision": 0.5965501582198643,
+    "benign_recall": 0.8702784554555396,
+    "benign_f1": 0.7078737699239182,
+    "attack_precision": 0.8538059515767767,
+    "attack_recall": 0.562781214848144,
+    "attack_f1": 0.6783994124210794
+}
