@@ -68,6 +68,39 @@ if uploaded_file is not None:
             ):
 
                 results = predict_traffic(df)
+                st.subheader("Hybrid Model Analysis")
+
+                st.write(
+                    "Selected decision strategy:",
+                    results["selected_strategy"].iloc[0]
+                )
+
+                st.write(
+                    "Random Forest estimates the likelihood of the "
+                    "attack class from its learned classification model. "
+                    "Isolation Forest identifies unusual traffic patterns."
+                )
+
+                st.caption(
+                    "The Random Forest probability is model-estimated, "
+                    "not necessarily a calibrated real-world probability. "
+                    "The Isolation Forest score is an anomaly score, "
+                    "not an attack probability."
+                )
+
+                st.dataframe(
+                    results[
+                        [
+                            "rf_attack_probability",
+                            "if_anomaly_score",
+                            "rf_prediction",
+                            "if_prediction",
+                            "prediction",
+                            "status",
+                        ]
+                    ],
+                    use_container_width=True
+                )
 
             total_flows = len(results)
 

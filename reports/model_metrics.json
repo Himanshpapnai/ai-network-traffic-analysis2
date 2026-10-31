@@ -1,12 +1,12 @@
 {
-    "rows_evaluated": 223112,
+    "rows_evaluated": 286467,
     "features": 68,
-    "benign_training_rows": 95096,
-    "accuracy": 0.6938443472336764,
-    "benign_precision": 0.5965501582198643,
-    "benign_recall": 0.8702784554555396,
-    "benign_f1": 0.7078737699239182,
-    "attack_precision": 0.8538059515767767,
-    "attack_recall": 0.562781214848144,
-    "attack_f1": 0.6783994124210794
+    "benign_training_rows": 100000,
+    "accuracy": 0.40984476396932285,
+    "benign_precision": 0.42475618197830556,
+    "benign_recall": 0.9189490108752754,
+    "benign_f1": 0.5809745699697616,
+    "attack_precision": 0.019632018209408193,
+    "attack_recall": 0.0013024602026049203,
+    "attack_f1": 0.002442852590957905
 }
