@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../netsentinels_integration/backend"
+		},
+		{
+			"path": "../netsentinels_integration/dashboard"
+		}
+	]
+}
